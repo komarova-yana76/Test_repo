@@ -1,0 +1,51 @@
+<style> {
+    font-size: 24px;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+li.green {
+    color: green;
+}
+li.red {
+    color: red;
+}
+li.blue {
+    color: blue;
+}
+ul ol li.red {
+    color: red;
+}
+ul ol li.green {
+    color: green;
+}
+ul ol li.blue {
+    color: blue;
+}
+p.italic {
+    font-weight: italic;
+}
+p.bold {
+    font-style: bold;
+}
+</style>
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+<p span class="color:red" style=".red">Это красный текст</p>
+<p span class="color:green" style=".green">Это зелёный текст</p>
+<p span style="p.italic">Этот текст написан курсивом</p>
+<p span style="p.bold">Это полужирный текст</p>
+<ul>
+    <li span class="color:green" style="li.green ">Этот элемент списка зелёный</li>
+    <ol>
+        <li span class="color:red" style="ul ol li.red ">Этот элемент подсписка красный</li>
+        <li span class="color:blue" style="ul ol li.blue ">Этот элемент подсписка синий</li>
+    </ol>
+</ul>
+</body>

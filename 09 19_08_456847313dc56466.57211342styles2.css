@@ -1,0 +1,74 @@
+<style>{
+    font-size: 24px;
+}
+p.green {
+    color: green;
+}
+p.red {
+    color: red;
+}
+p.italic {
+    font-style: italic;
+}
+p.bold {
+    font-weight: bold;
+}
+li.green {
+    color: green;
+}
+li.red {
+    color: red;
+}
+li.brown {
+    color:brown
+}
+li.blue {
+    color: blue;
+}
+span.xxsmall {
+    font-size: 10px;
+}
+span.xsmall {
+    font-size: 20px;
+}
+span.small {
+    font-size: 30px;
+}
+span.medium {
+    font-size: 40px;
+}
+span.large {
+    font-size: 50px;
+}
+span.xlarge {
+    font-size: 60px;
+}
+span.xxlarge {
+    font-size: 70px;
+}
+</style>
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+<p span class="color:red" style="p.red">Это красный текст</p>
+<p span class="color:red" style="p.red">Это тоже красный текст</p>
+<p span style="p.bold">Это полужирный текст</p>
+<p span style=(p.bold; p.italic)>Это тоже полужирный текст</p>
+<p>Все элементы следующего списка (включая подсписок) имеют разные цвета и ни один из них не чёрный:</p>
+<ul>
+    <li style="li.brown">Элемент списка</li>
+        <ol>
+            <li style="li.red">Первый элемент подсписка</li>
+            <li style="li.green">Второй элемент подсписка</li>
+        </ol>
+    <li style="li.blue">Ещё один элемент списка</li>
+</ul>
+<div>
+    <span style="span.xxsmall">В</span>
+    <span p style="span.xsmall">этом</span>
+    <span b style="span.medium">абзаце</b>
+    <span style="span.xlarge">все</span>
+    <span style="span.large">слова</span>
+    <span style="span.small">разного</span>
+    <span style="span.xxlarge">размера</span></p>
+</div>
+</body>
